@@ -8,9 +8,11 @@ body {
 }
 .section_1 {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   background-color: #white;
+  overflow: hidden;
 }
+
 .section_1_container {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -20,8 +22,9 @@ body {
   gap: 28px;
 }
 .card-header {
-  height: 92.42vh;
+  height: 100%;
   width: 50%;
+  min-height: 852px;
   background: linear-gradient(to bottom, #ddd4c500, #8e887e);
   display: flex;
   flex-direction: column;
@@ -78,8 +81,10 @@ body {
   font-feature-settings: "ss01" on;
 }
 .content_page_1 {
-  height: 92.42vh;
+  height: 100%;
   width: 50%;
+  /* min-height: 600px; */
+
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -123,6 +128,7 @@ body {
 .icon-box {
   flex: 1;
   text-align: center;
+  justify-content: center;
 }
 .icon-box svg {
   display: block;
@@ -143,7 +149,6 @@ body {
 .icon-box:nth-child(1),
 .icon-box:nth-child(2) {
   border-right: 1px solid rgba(0, 0, 0, 0.11);
-  height: 132px;
 }
 .shop-btn {
   position: absolute;
@@ -165,8 +170,9 @@ body {
 }
 /* ===section_2===*/
 .section_2 {
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
+
   background-color: white;
   margin-bottom: 119px;
 }
@@ -262,8 +268,10 @@ body {
 }
 /*====section3==== */
 .section_3 {
-  height: 1214px;
-  width: 100vw;
+  height: auto;
+  width: 100%;
+  padding: 2rem 0;
+
   background-color: #fff9f5;
 }
 .design-page-body {
