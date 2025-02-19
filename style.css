@@ -396,14 +396,14 @@ body {
   align-items: center;
 }
 .design-img-small2 {
-  transform: translate(185px, -120%);
+  transform: translate(175px, -100%);
 }
 .design-img-small2 img {
   width: 274px;
   height: 385px;
 }
 .design-img-big2 {
-  transform: translate(-80%, 0px);
+  transform: translate(-80%, 50px);
 }
 .design-img-big2 img {
   width: 183px;
